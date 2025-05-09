@@ -29,6 +29,7 @@ export const parseCSV = (csv: string): string[][] => {
 };
 
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const convertValue = (value: string, type: string): any => {
   value = value.replace(/^"|"$/g, '');
   

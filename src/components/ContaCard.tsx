@@ -21,8 +21,8 @@ const ContaCard: React.FC<ContaCardProps> = ({ conta }) => {
             Conta {conta.tipo === 'corrente' ? 'Corrente' : 'Poupança'}
           </h3>
         </div>
-        <span className="text-xs bg-gray-100 px-2 py-1 rounded-full text-gray-600">
-          {conta.id}
+        <span className="text-xs bg-gray-100 px-3 py-1 rounded-full text-blue-900">
+          ID: {conta.id}
         </span>
       </div>
       
