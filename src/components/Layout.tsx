@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       
       <footer className="bg-gray-100 border-t border-gray-200 py-4 mt-auto">
         <div className="container mx-auto px-4 text-center text-gray-600 text-sm">
-          &copy; {new Date().getFullYear()} Banestes - Todos os direitos reservados
+          &copy; {new Date().getFullYear()} Banestes — Todos os direitos reservados. Feito por <a href="https://github.com/gustavofiorotti" target='_blank' rel='noopener noreferrer' className="text-[#004a8e] no-underline hover:text-[#0079fe] underline transition-colors duration-200 ease-in-out">Gustavo Fiorotti</a>
         </div>
       </footer>
     </div>
